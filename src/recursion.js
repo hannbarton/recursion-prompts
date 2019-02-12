@@ -16,7 +16,7 @@ var factorial = function(n) {
         }
         else {
             return n *= factorial(n - 1);
-            
+
         }
     }
 };
@@ -44,8 +44,8 @@ var arraySum = function(array) {
         else {
             sum += arraySum(array[i]);
         }
-    } 
-    return sum;  
+    }
+    return sum;
 };
 
 // 4. Check if a number is even.
@@ -156,7 +156,7 @@ var reverse = function(str) {
         return str[str.length - 1].concat(reverse(str.slice(0, -1)))
     }
 };
-// racecar = 7 
+// racecar = 7
 //hannah = 6
 // 10. Write a function that determines if a string is a palindrome.
 var palindrome = function(string) {
@@ -179,7 +179,7 @@ var palindrome = function(string) {
         return palindrome(str.slice(1, -1));
     }
 };
-// e 
+// e
 
 // 11. Write a function that returns the remainder of x divided by y without using the
 // modulo (%) operator.
@@ -209,11 +209,12 @@ var modulo = function(x, y) {
     }
 };
 
-// 
+//
 
 // 12. Write a function that multiplies two numbers without using the * operator or
 // Math methods.
 var multiply = function(x, y) {
+
 
 };
 
